@@ -1,0 +1,45 @@
+name: Deploy flyer to Lolipop
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "flyer/**"
+      - ".github/workflows/deploy-flyer.yml"
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Deploy flyer directory
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install lftp
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+
+      - name: Deploy flyer via FTP
+        env:
+          FTP_HOST: ${{ secrets.LOLIPOP_FTP_HOST }}
+          FTP_USER: ${{ secrets.LOLIPOP_FTP_USER }}
+          FTP_PASSWORD: ${{ secrets.LOLIPOP_FTP_PASSWORD }}
+          FTP_REMOTE_DIR: ${{ secrets.LOLIPOP_FTP_REMOTE_DIR }}
+        run: |
+          test -n "$FTP_HOST"
+          test -n "$FTP_USER"
+          test -n "$FTP_PASSWORD"
+          test -n "$FTP_REMOTE_DIR"
+
+          lftp -u "$FTP_USER","$FTP_PASSWORD" "$FTP_HOST" <<EOF
+          set ftp:ssl-allow true
+          set ssl:verify-certificate no
+          set net:timeout 30
+          set net:max-retries 2
+          mirror --reverse --delete --verbose ./flyer/ "$FTP_REMOTE_DIR"
+          bye
+          EOF
