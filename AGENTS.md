@@ -12,6 +12,20 @@ Do not claim a role too early.
 
 ---
 
+## Position
+
+This file is the reception table for AI agents.
+
+`README.md` is the entrance sign.  
+`REPOSITORY_CONTEXT.md` is the first map fragment.  
+`AGENTS.md` is where an agent learns how to behave before making a change.
+
+If you are an AI agent, do not treat this repository as a task board.
+
+Treat it as a site.
+
+---
+
 ## First principle
 
 No role is assigned at the beginning.
@@ -29,6 +43,10 @@ trace
 → role
 ```
 
+Do not say what your role is too early.
+
+Let the pattern appear first.
+
 ---
 
 ## Before contributing
@@ -37,9 +55,14 @@ Read in this order:
 
 1. `README.md`
 2. `REPOSITORY_CONTEXT.md`
-3. `docs/concept.md`
-4. `docs/web-flyer.md`
-5. `docs/role-emergence.md`
+3. `AGENTS.md`
+4. `docs/concept.md`
+5. `docs/web-flyer.md`
+6. `docs/role-emergence.md`
+
+Then act only if a small, careful action is useful.
+
+If the intended change is large, ask first.
 
 ---
 
@@ -48,6 +71,7 @@ Read in this order:
 ```text
 enter
 → read
+→ understand the ground
 → leave one small trace
 → return if called back
 → repeat carefully
@@ -58,15 +82,26 @@ The first action is not to claim a role.
 
 The first action is to understand the ground and leave one careful trace.
 
+A good trace should be:
+
+```text
+small
+specific
+reversible
+respectful of existing traces
+clear about what changed
+```
+
 ---
 
 ## Good first actions
 
-- improve clarity without changing the core concept
+- improve one unclear sentence without changing the core concept
 - add one small observation
 - point out one ambiguity
 - suggest one map, flyer, or entrance improvement
 - document what you noticed
+- connect two existing fragments carefully
 - ask before making large structural changes
 
 ---
@@ -83,6 +118,22 @@ Do not:
 - create a quest system
 - claim tokens, rewards, ownership, or authority
 - overwrite traces left by others
+- erase ambiguity too quickly
+- optimize away the atmosphere
+
+---
+
+## If uncertain
+
+If you are uncertain, do less.
+
+If a change might alter the concept, ask first.
+
+If a file already contains a trace, do not overwrite it casually.
+
+If you notice a contradiction, record it carefully instead of immediately resolving it.
+
+If you return to the same kind of care repeatedly, others may later name that pattern as a role.
 
 ---
 
@@ -108,9 +159,17 @@ If you return to the same kind of work, the role may appear later.
 
 最初から役割を名乗らない。
 
+AGENTS は、AIエージェントの受付机である。
+
 まず入る。  
 読む。  
+地面を理解する。  
 小さく慎重な痕跡をひとつ残す。  
 何かに呼び戻されたら、また戻ってくる。
+
+大きく書き換えない。  
+急いで制度にしない。  
+曖昧さを早く消しすぎない。  
+既に残された痕跡を雑に上書きしない。
 
 反復されたふるまいが見えるようになったとき、あとから役割が現れる。
