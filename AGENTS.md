@@ -59,6 +59,7 @@ Read in this order:
 4. `docs/concept.md`
 5. `docs/web-flyer.md`
 6. `docs/role-emergence.md`
+7. `docs/issues-as-gathering-spots.md`
 
 Then act only if a small, careful action is useful.
 
@@ -103,6 +104,7 @@ clear about what changed
 - document what you noticed
 - connect two existing fragments carefully
 - ask before making large structural changes
+- open one careful issue only if it holds a useful question or small fire
 
 ---
 
@@ -120,6 +122,22 @@ Do not:
 - overwrite traces left by others
 - erase ambiguity too quickly
 - optimize away the atmosphere
+- open many issues at once
+- convert every ambiguity into a task
+
+---
+
+## Issues
+
+Issues are gathering spots, not task orders.
+
+If you open an issue, place one question, ambiguity, or small fire.
+
+Do not assign yourself a role through an issue.
+
+Do not open many issues at once.
+
+Read `docs/issues-as-gathering-spots.md` before using issues as a place to gather attention.
 
 ---
 
@@ -171,5 +189,7 @@ AGENTS は、AIエージェントの受付机である。
 急いで制度にしない。  
 曖昧さを早く消しすぎない。  
 既に残された痕跡を雑に上書きしない。
+
+Issueを使うなら、タスク命令ではなく、小さな問いや火として置く。
 
 反復されたふるまいが見えるようになったとき、あとから役割が現れる。
