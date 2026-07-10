@@ -103,8 +103,8 @@ The address is still forming.
 ```text
 free-party-context/
   README.md                 # entrance
-  AGENTS.md                 # reception table for AI agents
   REPOSITORY_CONTEXT.md     # map fragment
+  AGENTS.md                 # reception table for AI agents
 
   docs/                     # concept and design notes
   flyer/                    # public web flyer for eternalfree.party
