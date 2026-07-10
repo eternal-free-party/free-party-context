@@ -178,6 +178,18 @@ h2 {
 }
 
 @media (max-width: 780px) {
+  body {
+    background:
+      radial-gradient(circle at -18% 4%, rgba(215, 255, 79, 0.09), transparent 11rem),
+      radial-gradient(circle at 112% 14%, rgba(200, 162, 255, 0.09), transparent 14rem),
+      radial-gradient(circle at 50% 100%, rgba(104, 255, 190, 0.05), transparent 20rem),
+      linear-gradient(180deg, #050705, var(--bg));
+  }
+
+  body::before {
+    opacity: 0.14;
+  }
+
   .flyer {
     padding: 30px 18px;
   }
@@ -194,6 +206,7 @@ h2 {
 
   .card {
     min-height: auto;
+    background: rgba(232, 245, 233, 0.035);
   }
 
   .number {
