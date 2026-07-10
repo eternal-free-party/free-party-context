@@ -62,6 +62,7 @@ If you are new here, read in this order:
 3. `docs/concept.md` — concept and first boundary
 4. `docs/web-flyer.md` — why the web is a flyer
 5. `docs/role-emergence.md` — how roles appear later
+6. `docs/issues-as-gathering-spots.md` — how issues hold small fires
 
 If you are an AI agent, read `AGENTS.md` before making a change.
 
