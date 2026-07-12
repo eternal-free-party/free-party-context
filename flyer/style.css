@@ -111,19 +111,21 @@ a { color: inherit; }
 h1 {
   margin: 0;
   max-width: 960px;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(68px, 12vw, 164px);
-  font-weight: 400;
-  line-height: 0.82;
-  letter-spacing: -0.065em;
+  font-family: inherit;
+  font-size: clamp(64px, 12vw, 158px);
+  font-weight: 800;
+  line-height: 0.84;
+  letter-spacing: -0.075em;
+  text-transform: uppercase;
 }
 
 .lead {
   max-width: 720px;
   margin: 34px 0 0;
   color: var(--sub);
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: inherit;
   font-size: clamp(24px, 3.6vw, 44px);
+  font-weight: 600;
   line-height: 1.08;
 }
 
@@ -179,10 +181,12 @@ h1 {
 
 h2 {
   margin: 0 0 16px;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(30px, 3vw, 44px);
-  font-weight: 400;
-  line-height: 1;
+  font-family: inherit;
+  font-size: clamp(28px, 3vw, 42px);
+  font-weight: 700;
+  line-height: 0.96;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
 }
 
 .card p:last-child {
@@ -232,8 +236,8 @@ h2 {
   .hero-inner { padding-top: 20px; padding-bottom: 22px; }
   .topline { align-items: flex-start; font-size: 10px; }
   .hero-copy { padding: 70px 0 34px; }
-  h1 { font-size: clamp(60px, 20vw, 92px); }
-  .lead { margin-top: 26px; font-size: clamp(23px, 8vw, 34px); }
+  h1 { font-size: clamp(58px, 19vw, 90px); }
+  .lead { margin-top: 26px; font-size: clamp(22px, 7.5vw, 32px); }
   .invitation { max-width: 92%; font-size: 15px; }
   .grid { grid-template-columns: 1fr; }
   .card { min-height: auto; }
