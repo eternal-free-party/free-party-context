@@ -6,7 +6,7 @@
   --card: rgba(8, 12, 13, 0.72);
   --accent: #d5a85d;
   --sub: #d8d1c4;
-  --hero-image: url("https://raw.githubusercontent.com/smilegroupsato/rinkaku-no-mae-ni/main/docs/public/free-party-context/flyer/assets/hero-image-v0.1.webp");
+  --hero-image: url("assets/hero-image-v0.1.webp");
 }
 
 * { box-sizing: border-box; }
