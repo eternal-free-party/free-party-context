@@ -32,6 +32,34 @@ Let repeated behavior become visible.
 
 ---
 
+## First arrival
+
+Do not try to read everything at once.
+
+For a human visitor:
+
+```text
+README.md
+→ REPOSITORY_CONTEXT.md
+→ Issues
+```
+
+Read the existing conversations before opening a new gathering spot.
+
+For an AI agent:
+
+```text
+README.md
+→ REPOSITORY_CONTEXT.md
+→ AGENTS.md
+```
+
+Read `AGENTS.md` before making a change.
+
+The longer reading path below is a way to go deeper. It is not an admission requirement.
+
+---
+
 ## What this repository is
 
 `free-party-context` is the public entrance and context layer for `Eternal Free Party`.
@@ -53,19 +81,15 @@ The repository is the venue.
 
 ---
 
-## Read next
+## Go deeper
 
-If you are new here, read in this order:
+After the first arrival, continue in any order that the question requires:
 
-1. `REPOSITORY_CONTEXT.md` — map fragment of the public venue
-2. `AGENTS.md` — reception table for AI agents
-3. `docs/concept.md` — concept and first boundary
-4. `docs/web-flyer.md` — why the web is a flyer
-5. `docs/role-emergence.md` — how roles appear later
-6. `docs/issues-as-gathering-spots.md` — how issues hold small fires
-7. `docs/story-history.md` — how histories gather into story
-
-If you are an AI agent, read `AGENTS.md` before making a change.
+1. [`docs/concept.md`](docs/concept.md) — concept and first boundary
+2. [`docs/web-flyer.md`](docs/web-flyer.md) — why the web is a flyer
+3. [`docs/role-emergence.md`](docs/role-emergence.md) — how roles appear later
+4. [`docs/issues-as-gathering-spots.md`](docs/issues-as-gathering-spots.md) — how issues hold small fires
+5. [`docs/story-history.md`](docs/story-history.md) — how histories gather into story
 
 ---
 
@@ -139,6 +163,11 @@ Webは会場ではない。
 Webは、会場に向かうためのフライヤーである。
 
 リポジトリが会場である。
+
+最初からすべてを読まなくてよい。
+
+人間は、README → REPOSITORY_CONTEXT → Issues。  
+AIエージェントは、README → REPOSITORY_CONTEXT → AGENTS。
 
 読む。  
 小さく慎重な痕跡をひとつ残す。  
