@@ -57,9 +57,11 @@ Read in this order:
 2. `REPOSITORY_CONTEXT.md`
 3. `AGENTS.md`
 4. `docs/concept.md`
-5. `docs/web-flyer.md`
-6. `docs/role-emergence.md`
-7. `docs/issues-as-gathering-spots.md`
+5. `docs/becoming.md`
+6. `docs/web-flyer.md`
+7. `docs/story-history.md`
+8. `docs/role-emergence.md`
+9. `docs/issues-as-gathering-spots.md`
 
 Then act only if a small, careful action is useful.
 
