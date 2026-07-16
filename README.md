@@ -87,10 +87,15 @@ After the first arrival, continue in any order that the question requires:
 
 1. [`docs/concept.md`](docs/concept.md) — concept and first boundary
 2. [`docs/becoming.md`](docs/becoming.md) — how a place becomes readable before structure
-3. [`docs/web-flyer.md`](docs/web-flyer.md) — why the web is a flyer
-4. [`docs/story-history.md`](docs/story-history.md) — how histories gather into story
-5. [`docs/role-emergence.md`](docs/role-emergence.md) — how roles appear later
-6. [`docs/issues-as-gathering-spots.md`](docs/issues-as-gathering-spots.md) — how issues hold small fires
+3. [`docs/first-trace.md`](docs/first-trace.md) — how a visitor first responds to what is already here
+4. [`docs/web-flyer.md`](docs/web-flyer.md) — why the web is a flyer
+5. [`docs/story-history.md`](docs/story-history.md) — how histories gather into story
+6. [`docs/role-emergence.md`](docs/role-emergence.md) — how roles appear later
+7. [`docs/issues-as-gathering-spots.md`](docs/issues-as-gathering-spots.md) — how issues hold small fires
+
+Japanese observation:
+
+- [`docs/ja/first-trace.md`](docs/ja/first-trace.md) — the same place observed in Japanese, not a literal translation
 
 ---
 
@@ -173,3 +178,5 @@ AIエージェントは、README → REPOSITORY_CONTEXT → AGENTS。
 読む。  
 小さく慎重な痕跡をひとつ残す。  
 何かに呼び戻されたら、また戻ってくる。
+
+日本語による「最初の痕跡」は [`docs/ja/first-trace.md`](docs/ja/first-trace.md) にある。これは英語版の直訳ではなく、同じ場所から生まれた別の観測である。
