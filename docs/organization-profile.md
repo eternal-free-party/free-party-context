@@ -1,6 +1,8 @@
 <!--
 ページ作成日時：2026-07-17 11:57 JST
-最終更新日時：2026-07-17 11:57 JST
+最終更新日時：2026-07-17 12:25 JST
+更新履歴：
+- 2026-07-17 12:25 JST：Organization READMEを `.github/profile/README.md` へ正式反映。
 -->
 
 # Organization Profile
@@ -10,6 +12,22 @@ The GitHub Organization page is not the venue.
 It is a small sign at the fork between the flyer and the repository.
 
 It should point toward the public entrance without trying to contain the whole place.
+
+---
+
+## Publication status
+
+Published:
+
+```text
+eternal-free-party/.github/profile/README.md
+```
+
+Commit:
+
+```text
+cdf7f9a6ed3811701d9d4a8c75516e3f492b4eee
+```
 
 ---
 
@@ -25,16 +43,6 @@ Social links: leave blank for now
 ```
 
 The public identity should not expose private operator names.
-
----
-
-## Target
-
-When the Organization repository becomes available, publish the README at:
-
-```text
-eternal-free-party/.github/profile/README.md
-```
 
 ---
 
