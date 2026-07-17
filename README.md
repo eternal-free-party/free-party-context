@@ -1,3 +1,9 @@
+<!--
+最終更新日時：2026-07-17 11:34 JST
+更新履歴：
+- 2026-07-17 11:34 JST：日本語Conceptへの導線を追加。
+-->
+
 # Eternal Free Party
 
 A repository context before the village.
@@ -114,6 +120,7 @@ After the first arrival, continue in any order that the question requires:
 
 Japanese observations:
 
+- [`docs/ja/concept.md`](docs/ja/concept.md) — まだムラになる前のコンセプト
 - [`docs/ja/first-trace.md`](docs/ja/first-trace.md) — 最初の痕跡
 - [`docs/ja/open.md`](docs/ja/open.md) — 開く
 - [`docs/ja/share-the-flyer.md`](docs/ja/share-the-flyer.md) — フライヤーを配る
