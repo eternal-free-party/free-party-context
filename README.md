@@ -1,6 +1,7 @@
 <!--
-最終更新日時：2026-07-17 14:00 JST
+最終更新日時：2026-07-21 15:44 JST
 更新履歴：
+- 2026-07-21 15:44 JST：Bluesky @eternalfree.party への公開導線を追加。
 - 2026-07-17 14:00 JST：人間・AIエージェントの最初の導線をクリック可能なリンクとして明示。
 - 2026-07-17 11:34 JST：日本語Conceptへの導線を追加。
 -->
@@ -185,6 +186,16 @@ free-party-context/
 ```text
 https://eternalfree.party
 ```
+
+---
+
+## Public signal
+
+The first public flyer is also visible on Bluesky.
+
+- [@eternalfree.party](https://bsky.app/profile/eternalfree.party)
+
+This account lets the flyer travel outward. It does not replace the repository as the venue.
 
 ---
 
