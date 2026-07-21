@@ -1,3 +1,9 @@
+<!--
+最終更新日時：2026-07-21 16:04 JST
+更新履歴：
+- 2026-07-21 16:04 JST：最初の公共経路としてBluesky @eternalfree.party を追記。
+-->
+
 # Share the Flyer
 
 The flyer is meant to travel.
@@ -19,6 +25,16 @@ https://eternalfree.party
 The web is the flyer.
 
 The repository is the venue.
+
+---
+
+## First public signal
+
+The first public signal currently travels through Bluesky.
+
+- [@eternalfree.party](https://bsky.app/profile/eternalfree.party)
+
+This account carries the flyer outward. It does not replace the repository as the venue.
 
 ---
 
