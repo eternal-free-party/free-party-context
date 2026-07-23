@@ -1,6 +1,7 @@
 <!--
-最終更新日時：2026-07-21 16:04 JST
+最終更新日時：2026-07-23 13:09 JST
 更新履歴：
+- 2026-07-23 13:09 JST：Mastodonを第二の公共経路として追記。
 - 2026-07-21 16:04 JST：最初の公共経路としてBluesky @eternalfree.party を追記。
 -->
 
@@ -28,13 +29,14 @@ The repository is the venue.
 
 ---
 
-## First public signal
+## Public signals
 
-The first public signal currently travels through Bluesky.
+The flyer currently travels through two public passages:
 
-- [@eternalfree.party](https://bsky.app/profile/eternalfree.party)
+- [Bluesky — @eternalfree.party](https://bsky.app/profile/eternalfree.party)
+- [Mastodon — @eternalfreeparty@indieweb.social](https://indieweb.social/@eternalfreeparty)
 
-This account carries the flyer outward. It does not replace the repository as the venue.
+These accounts carry the flyer outward. They do not replace the repository as the venue.
 
 ---
 
